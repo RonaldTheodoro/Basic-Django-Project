@@ -21,7 +21,7 @@ python3 -m venv .venv
 source .venv/bin/activate
 pip install --upgrade pip
 pip install django
-django-admin.py startproject ProjectName . --template=https://github.com/RonaldTheodoro/Basic-Django-Projecarchive/master.zip --name=ProjectName
+django-admin.py startproject ProjectName . --template=https://github.com/RonaldTheodoro/Basic-Django-Project/archive/master.zip --name=ProjectName
 pip install -r requirements-dev.txt
 cp contrib/env-sample .env
 ```
