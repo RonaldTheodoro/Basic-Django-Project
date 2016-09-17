@@ -1,6 +1,6 @@
 .vscode/
 .venv/
 __pycache__/
-staticflies/
+staticfiles/
 .env
 *.sqlite3
