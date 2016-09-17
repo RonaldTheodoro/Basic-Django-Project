@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     # Third party apps
     'test_without_migrations',
     'django_extensions',
+    'bootstrap3',
     # Project apps
     'apps.core',
 ]
