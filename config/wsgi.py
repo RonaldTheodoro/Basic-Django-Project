@@ -17,8 +17,8 @@ os.environ.setdefault("DJANGO_SETTINGS_MODULE", "config.settings")
 
 
 if config('DEBUG', default=False, cast=bool):
-    print('true')
+    # Use Cling and staticfiles when DEBUG is true
     application = Cling(get_wsgi_application())
 else:
-    print('false')
+    # Use git cdn when DEBUG is false
     application = get_wsgi_application()
