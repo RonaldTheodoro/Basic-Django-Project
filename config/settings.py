@@ -31,6 +31,7 @@ INSTALLED_APPS = [
     'bootstrap3',
     # Project apps
     'apps.core',
+    'apps.accounts',
 ]
 
 MIDDLEWARE = [
