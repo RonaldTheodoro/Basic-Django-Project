@@ -1,4 +1,4 @@
-{% load bootstrap3 %}
+{% load static %}
 <!DOCTYPE>
 <html>
 <head>
@@ -8,8 +8,7 @@
 
     <title>Basic App</title>
 
-    {% bootstrap_css %}
-    {% bootstrap_javascript %}
+    <link rel="stylesheet" href="{% static 'css/bootstrap.css' %}">
 </head>
 <body>
     {% include 'navbar.html' %}
@@ -23,5 +22,9 @@
             {% endblock content %}
         </div>
     </div>
+
+    <script src="{% static 'js/jquery.js' %}"></script>
+    <script src="{% static 'js/popper.js' %}"></script>
+    <script src="{% static 'js/bootstrap.js' %}"></script>
 </body>
 </html>
