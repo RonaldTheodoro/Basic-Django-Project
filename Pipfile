@@ -9,14 +9,13 @@ name = "pypi"
 
 dj-database-url = "*"
 dj-static = "*"
-django = "*"
+Django = "*"
 django-extensions = "*"
 django-test-without-migrations = "*"
 python-decouple = "*"
 "static3" = "==0.7.0"
 gunicorn = "*"
 "psycopg2" = "*"
-"django-bootstrap3" = "*"
 django-widget-tweaks = "*"
 
 

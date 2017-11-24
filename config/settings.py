@@ -28,7 +28,6 @@ INSTALLED_APPS = [
     # Third party apps
     'test_without_migrations',
     'django_extensions',
-    'bootstrap3',
     'widget_tweaks',
     # Project apps
     'apps.core',
