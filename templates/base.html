@@ -12,7 +12,6 @@
     {% bootstrap_javascript %}
 </head>
 <body>
-    <!--Static navbar-->
     <nav class="navbar navbar-default navbar-static-top">
         <div class="container">
             <div class="navbar-header">
@@ -24,16 +23,18 @@
             </div>
             <div id="navbar" class="navbar-collapse collapse">
                 
-            </div> <!--/.nav-collapse-->
+            </div>
         </div>
     </nav>
     <div class="container">
         <div class="page-header">
-            {% block header %}{% endblock header %}
+            {% block header %}
+            {% endblock header %}
         </div>
         <div>
-            {% block content %}{% endblock content %}
+            {% block content %}
+            {% endblock content %}
         </div>
-    </div> <!--/container-->
+    </div>
 </body>
 </html>
