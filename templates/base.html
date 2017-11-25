@@ -9,6 +9,9 @@
     <title>{% block title %}Basic App{% endblock %}</title>
 
     <link rel="stylesheet" href="{% static 'css/bootstrap.css' %}">
+
+    {% block stylesheet %}
+    {% endblock %}
 </head>
 <body>
     {% include 'navbar.html' %}
