@@ -4,15 +4,11 @@ This is just a basic sample for django projects
 
 ## How to develop?
 
-1) Clone the repository
-
-2) Create a virtualenv with Python 3.5
-
-3) Activate the virtualenv
-
-4) Install dependencies
-
-5) Configure the instance with .env
+1. Clone the repository
+2. Create a virtualenv with Python 3.6
+3. Activate the virtualenv
+4. Install dependencies
+5. Configure the instance with .env
 
 ```console
 mkdir ProjectName
@@ -28,15 +24,11 @@ cp contrib/env-sample .env
 
 ## How to deploy?
 
-1) Create an instance in Heroku
-
-2) Send the configurations to Heroku
-
-3) Define a SECRET_KEY for the instance
-
-4) Define DEBUG=False
-
-6) Send the source code to heroku
+1. Create an instance in Heroku
+2. Send the configurations to Heroku
+3. Define a SECRET_KEY for the instance
+4. Define DEBUG=False
+6. Send the source code to heroku
 
 ```console
 heroku create MyApp
