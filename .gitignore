@@ -133,5 +133,5 @@ staticfiles
 # End of https://www.gitignore.io/api/visualstudiocode
 
 ### Pipenv ###
-Pipenv
-Pipenv.lock
+Pipfile
+Pipfile.lock
