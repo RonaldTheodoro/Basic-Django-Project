@@ -13,6 +13,7 @@ gunicorn = "*"
 "psycopg2" = "*"
 python-decouple = "*"
 Django = "*"
+pytest = "*"
 pytest-django = "*"
 
 [dev-packages]
