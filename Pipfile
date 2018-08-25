@@ -15,6 +15,7 @@ python-decouple = "*"
 Django = "*"
 pytest = "*"
 pytest-django = "*"
+pytest-cov = "*"
 
 [dev-packages]
 ipython = {extras = ["notebook"]}
