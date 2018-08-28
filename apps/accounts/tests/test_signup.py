@@ -2,7 +2,7 @@ from django.urls import reverse
 from django.test import TestCase
 
 
-class SignUpTests(TestCase):
+class TestSignUp(TestCase):
 
     def setUp(self):
         self.response = self.client.get(reverse('accounts:signup'))

@@ -2,7 +2,7 @@ from django.test import TestCase
 from django.shortcuts import resolve_url
 
 
-class HomeTest(TestCase):
+class TestHome(TestCase):
 
     def setUp(self):
         self.response = self.client.get(resolve_url('core:index'))
