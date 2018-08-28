@@ -1,5 +1,7 @@
 # Basic Project
 
+[![Build Status](https://travis-ci.org/RonaldTheodoro/Basic-Django-Project.svg?branch=master)](https://travis-ci.org/RonaldTheodoro/Basic-Django-Project)
+
 This is just a basic sample for django projects
 
 ## How to develop?
