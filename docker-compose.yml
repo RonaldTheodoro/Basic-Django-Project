@@ -1,0 +1,22 @@
+version: '3'
+
+services:
+  web:
+    build: .
+    network_mode: host
+    environment:
+      - SECRET_KEY=${SECRET_KEY}
+      - DEBUG=False
+      - ALLOWED_HOSTS=*
+      - EMAIL_BACKEND=${EMAIL_BACKEND}
+      - EMAIL_HOST=${EMAIL_HOST}
+      - EMAIL_PORT=${EMAIL_PORT}
+      - EMAIL_HOST_USER=${EMAIL_HOST_USER}
+      - EMAIL_HOST_PASSWORD=${EMAIL_HOST_PASSWORD}
+      - EMAIL_USE_TLS=${EMAIL_USE_TLS}
+    volumes:
+      - .:/code
+    ports:
+      - 8000:8000
+    command: ./entrypoint.sh
+    command: gunicorn config.wsgi
