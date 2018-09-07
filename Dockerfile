@@ -1,5 +1,6 @@
 FROM ubuntu:latest
 LABEL Author="ronaldtheodoro"
+ENV LANG pt_BR.UTF-8
 RUN mkdir /app
 WORKDIR /app
 RUN apt update && apt install python3 python3-pip -y && apt clean
