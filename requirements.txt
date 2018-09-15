@@ -7,3 +7,6 @@ django-widget-tweaks
 gunicorn
 psycopg2
 python-decouple
+pytest
+pytest-django
+pytest-cov
