@@ -10,3 +10,4 @@ ADD requirements.txt /app
 RUN pip3 install -r requirements.txt
 ADD . /app
 RUN chmod +x entrypoint.sh
+RUN pytest
