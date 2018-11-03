@@ -19,6 +19,7 @@ pytest-cov = "*"
 
 [dev-packages]
 ipython = {extras = ["notebook"]}
+werkzeug = "*"
 
 [requires]
 python_version = "3.6"
